@@ -34,4 +34,4 @@ CMD ["nginx", "-g", "daemon off;"]
 #1.build
 #docker build -t bpmn-activiti .
 #2.run
-#docker run --name bpmn-activiti -p 18080:80 -d --rm  bpmn-activiti
+#docker run --name bpmn-activiti -p 8089:80 -d bpmn-activiti
