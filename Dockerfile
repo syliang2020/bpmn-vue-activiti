@@ -1,5 +1,5 @@
 # 使用Node.js作为基础镜像
-FROM node:16-alpine as build-stage
+FROM node:16.0.0-alpine as build-stage
 
 # 设置工作目录
 WORKDIR /app
